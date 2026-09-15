@@ -6,7 +6,7 @@ gmshによるファイルを有限要素解析に利用可能な形式にする�
 
 1. このプロジェクトをクローンする
 ```
-git clone git@nabe:/femfluid/begin_gmsh.git
+git clone git@github:/reikanomura/geo2mes.git
 ```
 ここで躓いてしまったらgitに詳しそうな人，femfluid.gitの管理者に連絡をする
 
@@ -50,7 +50,6 @@ gmsh sample.geo
   [gmsh screencast](http://gmsh.info/screencasts/)にまとめられている動画を見るとだいたいのことがわかるぞい
 
 - CUIでの操作（.geoファイルを直接編集する）
-  [その５：CUIでの操作方法](http://10.33.232.14:8090/femfluid/begin_gmsh/-/blob/master/README.md#%E3%81%9D%E3%81%AE%EF%BC%95cui%E3%81%A7%E3%81%AE%E6%93%8D%E4%BD%9C%E6%96%B9%E6%B3%95)を参照する
 
   慣れていないうちは，`sample.geo`をダウンロードして，それに書き加える形で編集すること！
   **Mesh.**で始まる指定文は，意味が解らないうちは書き換えないこと
