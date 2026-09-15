@@ -43,7 +43,7 @@ gmsh sample.geo
 ```
 というコマンドをうち，gmshの画面が立ち上がったら，動画の真似をしてみましょう．
 
-<img src="/movie/gmsh_tutorial.mp4" width=75%>
+<img src="/movie/gmsh_tutorial.gif" width=75%>
 
 
 - GUIでの操作（マウスを動かして地道に作る）
