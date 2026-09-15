@@ -18,7 +18,7 @@ source ~/.bashrc
 ```
 上記がうまくできたら次を実行
 ```
-cd begin_gmsh
+cd geo2mes
 make; cp geoget ~/.gmsh; cp tagget ~/.gmsh; cp geo2mesh ~/.gmsh
 chmod 550 ~/.gmsh/geoget; cp GEO2MESH.py ~/.gmsh; 
 ```
