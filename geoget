@@ -1,0 +1,17 @@
+#!/bin/bash
+
+echo "//+" > sample.geo 
+echo "SetFactory(\"OpenCASCADE\");" >> sample.geo 
+echo "//" >> sample.geo 
+echo "lcmax = 1.0; // Maximum mesh size" >> sample.geo 
+echo "lcmin = 0.5; // Minimum mesh size" >> sample.geo 
+echo "//" >> sample.geo 
+echo "// ! Do not edit the following lines !" >> sample.geo 
+echo "Mesh.Algorithm = 5; " >> sample.geo 
+echo "Mesh.Algorithm3D = 1;" >> sample.geo  
+echo "Mesh.MinimumElementsPerTwoPi = 40; " >> sample.geo 
+echo "Mesh.CharacteristicLengthMax = lcmax; " >> sample.geo 
+echo "Mesh.CharacteristicLengthMin = lcmin; " >> sample.geo 
+echo "Mesh.OptimizeNetgen = 3;" >> sample.geo 
+echo "Mesh.SaveAll=1;" >> sample.geo 
+echo "//" >> sample.geo 
